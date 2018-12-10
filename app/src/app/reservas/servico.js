@@ -4,6 +4,7 @@ export default class ReservaServico extends AbstractCrudService {
 
   constructor($http) {
     super($http, 'https://reserva-facil-betha-sistemas.herokuapp.com/api/reserva')
+    //   super($http, 'https://localhost:8080/api/reservas')
   }
 
 }
