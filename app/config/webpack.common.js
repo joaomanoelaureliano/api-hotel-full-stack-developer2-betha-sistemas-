@@ -69,7 +69,6 @@ exports.config = {
     stats: 'minimal',
     port: 9000,
   },
-
   stats: {
     assets: true,
     children: false,

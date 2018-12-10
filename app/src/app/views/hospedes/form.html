@@ -1,13 +1,22 @@
 <div class="container-fluid">
     <div class="row justify-content-sm-center">
         <div class="col-sm-10">
-            <h2 class="title">Cadastro de Hospedes</h2><br>
+            <h2 class="title">Cadastro de Hospedes</h2><br><br>
             <form>
-                <ui-input ng-model="vm.record.nome" label="Nome"></ui-input>
-                <ui-input ng-model="vm.record.email" type="email" label="Email"></ui-input>
-                <ui-input ng-model="vm.record.telefone" label="Telefone"></ui-input><br>
-                <button ng-click="vm.save()" type="button" class="btn btn-success btn-lg">Salvar Registro</button>
-                <a ui-sref="hospede.list" class="btn btn-danger btn-lg">Cancelar</a>
+                <div class="form-group">
+                    <label>Nome</label>
+                    <input type="text" ng-model="vm.record.nome" class="form-control" placeholder="Nome completo">
+                </div>
+                <div class="form-group">
+                    <label>Telefone</label>
+                    <input type="text" ng-model="vm.record.telefone" class="form-control" placeholder="(DD)99999 9999">
+                </div>
+                <div class="form-group">
+                    <label>E-mail</label>
+                    <input type="email" ng-model="vm.record.email" class="form-control" placeholder="exemplo@exemplo.com">
+                </div>
+                <button ng-click="vm.save()" type="button" class="btn btn-success">Salvar Registro</button>
+                <a ui-sref="hospede.list" class="btn btn-danger">Cancelar</a>
             </form>
         </div>
     </div>

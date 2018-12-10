@@ -5,14 +5,15 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" href="favicon.ico">
 
   <title>RESERVA FÁCIL</title>
 
 </head>
 
 <body>
-  <nav class="navbar navbar-dark fixed-top bgg-dark  flex-md-nowrap p-0 shadow">
-    <a id="menuB" class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">RESERVA FÁCIL</a>
+  <nav class="navbar navbar-dark fixed-top bg-primary flex-md-nowrap p-0 shadow">
+    <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">RESERVA FÁCIL</a>
     <ul class="navbar-nav px-3">
       <li class="nav-item text-nowrap">
         <div class="nav-link">
@@ -28,7 +29,7 @@
           <ul class="nav flex-column">
 
             <li class="nav-item">
-              <a id="menuA" class="nav-link" ui-sref-active="active" ui-sref="menu">
+              <a id="menuA" class="nav-link" ui-sref-active="active" ui-sref="home">
                 Home
                 <span class="sr-only"></span>
               </a>
@@ -41,7 +42,7 @@
             </li>
 
             <li class="nav-item">
-              <a id="menuA" class="nav-link" ui-sref-active="active" ui-sref="hospede.list">
+              <a id="menuA"  class="nav-link" ui-sref-active="active" ui-sref="hospede.list">
                 Cadastro Hospede
               </a>
             </li>
@@ -54,11 +55,11 @@
           </ul>
       </nav>
 
-      <!-- <nav class="col-md-2 d-none d-md-block bg-light sidebar">  
+      <!-- <nav class="col-md-2 d-none d-md-block bg-light sidebar">
         <ng-include src="'views/menu.html'"></ng-include>
       </nav> -->
 
-      <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pxx-4">
+      <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
         <ui-view></ui-view>
       </main>
     </div>
