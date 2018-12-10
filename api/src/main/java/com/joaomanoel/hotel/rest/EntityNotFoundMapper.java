@@ -1,4 +1,4 @@
-package com.joaomanoel.contrato.rest;
+package com.joaomanoel.hotel.rest;
 
 import javax.persistence.EntityNotFoundException;
 import javax.ws.rs.core.Response;

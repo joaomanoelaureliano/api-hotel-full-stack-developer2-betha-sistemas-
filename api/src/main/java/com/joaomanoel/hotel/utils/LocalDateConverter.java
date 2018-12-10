@@ -1,4 +1,4 @@
-package com.joaomanoel.contrato.utils;
+package com.joaomanoel.hotel.utils;
 
 import java.time.LocalDate;
 import java.time.ZoneId;

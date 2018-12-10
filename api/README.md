@@ -1,2 +1,2 @@
-# RESERVA FACIL
-Aplicação modelo RESERVA FACILem modelo apresentado em wildfly-swarm
+# pedidex-swarm
+Aplicação modelo Pedidex em modelo apresentado em wildfly-swarm

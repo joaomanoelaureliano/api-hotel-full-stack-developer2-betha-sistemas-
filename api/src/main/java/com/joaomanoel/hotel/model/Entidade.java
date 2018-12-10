@@ -1,4 +1,4 @@
-package com.joaomanoel.contrato.model;
+package com.joaomanoel.hotel.model;
 
 import java.io.Serializable;
 

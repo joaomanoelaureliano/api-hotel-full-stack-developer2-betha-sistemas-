@@ -1,4 +1,4 @@
-package com.joaomanoel.contrato.rest;
+package com.joaomanoel.hotel.rest;
 
 import java.util.Arrays;
 import java.util.HashMap;

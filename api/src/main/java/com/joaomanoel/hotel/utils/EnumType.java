@@ -1,4 +1,4 @@
-package com.joaomanoel.contrato.utils;
+package com.joaomanoel.hotel.utils;
 
 public interface EnumType {
     String getKey();

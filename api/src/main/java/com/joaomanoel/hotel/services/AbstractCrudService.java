@@ -1,7 +1,7 @@
-package com.joaomanoel.contrato.services;
+package com.joaomanoel.hotel.services;
 
-import com.joaomanoel.contrato.model.Entidade;
-import com.joaomanoel.contrato.utils.GenericDao;
+import com.joaomanoel.hotel.model.Entidade;
+import com.joaomanoel.hotel.utils.GenericDao;
 
 import java.util.List;
 import javax.ejb.TransactionAttribute;

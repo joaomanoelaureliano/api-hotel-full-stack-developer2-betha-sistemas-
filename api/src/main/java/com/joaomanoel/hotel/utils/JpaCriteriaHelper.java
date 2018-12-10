@@ -1,6 +1,6 @@
-package com.joaomanoel.contrato.utils;
+package com.joaomanoel.hotel.utils;
 
-import com.joaomanoel.contrato.model.Entidade;
+import com.joaomanoel.hotel.model.Entidade;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;

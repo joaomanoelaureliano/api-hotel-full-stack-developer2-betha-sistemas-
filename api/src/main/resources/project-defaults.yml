@@ -1,9 +1,9 @@
 swarm:
   datasources:
     data-sources:
-      ContratoDS:
+      HotelDS:
         driver-name: postgresql
-        connection-url: jdbc:postgresql://localhost:5432/contrato
+        connection-url: jdbc:postgresql://localhost:5432/hotel
         user-name: postgres
         password: postgres
         valid-connection-checker-class-name: org.jboss.jca.adapters.jdbc.extensions.postgres.PostgreSQLValidConnectionChecker

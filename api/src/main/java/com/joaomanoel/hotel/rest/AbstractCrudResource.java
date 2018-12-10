@@ -1,7 +1,7 @@
-package com.joaomanoel.contrato.rest;
+package com.joaomanoel.hotel.rest;
 
-import com.joaomanoel.contrato.model.Entidade;
-import com.joaomanoel.contrato.services.AbstractCrudService;
+import com.joaomanoel.hotel.model.Entidade;
+import com.joaomanoel.hotel.services.AbstractCrudService;
 
 import java.util.List;
 import javax.validation.ConstraintViolationException;
@@ -103,7 +103,7 @@ public abstract class AbstractCrudResource<T extends Entidade> {
         return Response.status(Response.Status.NO_CONTENT)
                 .build();
     }
-    
+
     private ConstraintViolationException catchException(Throwable ex) {
         if (ex.getCause() == null)
             return null;
